@@ -1,0 +1,7 @@
+git pull origin master
+
+git checkout -b build-pipeline
+
+git add azure-pipelines.yml
+git commit -m "Add build tasks"
+git push origin build-pipeline
